@@ -1,0 +1,195 @@
+local args = {
+    [1] = "runeffect"
+}
+
+game:GetService("ReplicatedStorage").slapstick:FireServer(unpack(args))
+
+local args = {
+    [1] = "cancelrun"
+}
+
+game:GetService("ReplicatedStorage").slapstick:FireServer(unpack(args))
+
+local args = {
+    [1] = "dash"
+}
+
+game:GetService("ReplicatedStorage").slapstick:FireServer(unpack(args))
+
+wait(1.5)
+
+local args = {
+    [1] = "runeffect"
+}
+
+game:GetService("ReplicatedStorage").slapstick:FireServer(unpack(args))
+
+local args = {
+    [1] = "cancelrun"
+}
+
+game:GetService("ReplicatedStorage").slapstick:FireServer(unpack(args))
+
+local args = {
+    [1] = "dash"
+}
+
+game:GetService("ReplicatedStorage").slapstick:FireServer(unpack(args))
+
+wait(1.5)
+local args = {
+    [1] = "runeffect"
+}
+
+game:GetService("ReplicatedStorage").slapstick:FireServer(unpack(args))
+
+local args = {
+    [1] = "cancelrun"
+}
+
+game:GetService("ReplicatedStorage").slapstick:FireServer(unpack(args))
+
+local args = {
+    [1] = "dash"
+}
+
+game:GetService("ReplicatedStorage").slapstick:FireServer(unpack(args))
+
+wait(1.5)
+
+local args = {
+    [1] = "runeffect"
+}
+
+game:GetService("ReplicatedStorage").slapstick:FireServer(unpack(args))
+
+local args = {
+    [1] = "cancelrun"
+}
+
+game:GetService("ReplicatedStorage").slapstick:FireServer(unpack(args))
+
+local args = {
+    [1] = "dash"
+}
+
+game:GetService("ReplicatedStorage").slapstick:FireServer(unpack(args))
+
+wait(1.5)
+
+local args = {
+    [1] = "runeffect"
+}
+
+game:GetService("ReplicatedStorage").slapstick:FireServer(unpack(args))
+
+local args = {
+    [1] = "cancelrun"
+}
+
+game:GetService("ReplicatedStorage").slapstick:FireServer(unpack(args))
+
+local args = {
+    [1] = "dash"
+}
+
+game:GetService("ReplicatedStorage").slapstick:FireServer(unpack(args))
+
+wait(1.5)
+
+local args = {
+    [1] = "runeffect"
+}
+
+game:GetService("ReplicatedStorage").slapstick:FireServer(unpack(args))
+
+local args = {
+    [1] = "cancelrun"
+}
+
+game:GetService("ReplicatedStorage").slapstick:FireServer(unpack(args))
+
+local args = {
+    [1] = "dash"
+}
+
+game:GetService("ReplicatedStorage").slapstick:FireServer(unpack(args))
+
+wait(1.5)
+
+local args = {
+    [1] = "runeffect"
+}
+
+game:GetService("ReplicatedStorage").slapstick:FireServer(unpack(args))
+
+local args = {
+    [1] = "cancelrun"
+}
+
+game:GetService("ReplicatedStorage").slapstick:FireServer(unpack(args))
+
+local args = {
+    [1] = "dash"
+}
+
+game:GetService("ReplicatedStorage").slapstick:FireServer(unpack(args))
+
+wait(1.5)
+local args = {
+    [1] = "runeffect"
+}
+
+game:GetService("ReplicatedStorage").slapstick:FireServer(unpack(args))
+
+local args = {
+    [1] = "cancelrun"
+}
+
+game:GetService("ReplicatedStorage").slapstick:FireServer(unpack(args))
+
+local args = {
+    [1] = "dash"
+}
+
+game:GetService("ReplicatedStorage").slapstick:FireServer(unpack(args))
+
+wait(1.5)
+
+local args = {
+    [1] = "runeffect"
+}
+
+game:GetService("ReplicatedStorage").slapstick:FireServer(unpack(args))
+
+local args = {
+    [1] = "cancelrun"
+}
+
+game:GetService("ReplicatedStorage").slapstick:FireServer(unpack(args))
+
+local args = {
+    [1] = "dash"
+}
+
+game:GetService("ReplicatedStorage").slapstick:FireServer(unpack(args))
+
+wait(1.5)
+
+local args = {
+    [1] = "runeffect"
+}
+
+game:GetService("ReplicatedStorage").slapstick:FireServer(unpack(args))
+
+local args = {
+    [1] = "cancelrun"
+}
+
+game:GetService("ReplicatedStorage").slapstick:FireServer(unpack(args))
+
+local args = {
+    [1] = "dash"
+}
+
+game:GetService("ReplicatedStorage").slapstick:FireServer(unpack(args))
