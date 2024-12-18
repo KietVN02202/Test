@@ -1,0 +1,55 @@
+local ScreenGui = Instance.new("ScreenGui")
+ScreenGui.Name = "SlapUi"
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+
+local SlapButton = Instance.new("ImageButton", ScreenGui)
+SlapButton.Size = UDim2.new(0.1, 0, 0.15, 0)
+SlapButton.Position = UDim2.new(0.73, 0, 0.35, 0)
+SlapButton.AnchorPoint = Vector2.new(0.5, 0.5)
+SlapButton.BackgroundColor3 = Color3.new(1, 0, 0)
+SlapButton.BackgroundTransparency = 0
+SlapButton.Active = true
+SlapButton.Draggable = false
+
+local TextLabel = Instance.new("TextLabel", SlapButton)
+TextLabel.Size = UDim2.new(1, 0, 1, 0)
+TextLabel.Text = "T"
+TextLabel.TextColor3 = Color3.new(1, 1, 1)
+TextLabel.BackgroundTransparency = 1
+TextLabel.TextScaled = true
+
+local Corner = Instance.new("UICorner", SlapButton)
+Corner.CornerRadius = UDim.new(0, 8)
+
+local Stroke = Instance.new("UIStroke", SlapButton)
+Stroke.Color = Color3.new(0, 0, 0)
+Stroke.Transparency = 0.2
+Stroke.Thickness = 3
+
+-- Teleport Functionality
+local isTeleporting = false
+
+local function enableTeleportMode()
+    isTeleporting = true
+    local player = game.Players.LocalPlayer
+    local playerMouse = player:GetMouse()
+
+    local connection
+    connection = playerMouse.Button1Down:Connect(function()
+        if isTeleporting then
+            local targetPosition = playerMouse.Hit.p
+            if player.Character and player.Character:FindFirstChild("HumanoidRootPart") then
+                player.Character:MoveTo(targetPosition)
+            end
+            isTeleporting = false
+            connection:Disconnect()
+        end
+    end)
+end
+
+-- Button Click Event
+SlapButton.MouseButton1Click:Connect(function()
+    if not isTeleporting then
+        enableTeleportMode()
+    end
+end)
