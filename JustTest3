@@ -1,0 +1,29 @@
+local GodMode = true -- elude Require
+
+if GodMode then
+    local player = game.Players.LocalPlayer
+    local character = player.Character or player.CharacterAdded:Wait()
+    local humanoidRootPart = character:WaitForChild("HumanoidRootPart")
+    local humanoid = character:WaitForChild("Humanoid")
+
+    local lastPosition = humanoidRootPart.CFrame
+
+    local function isRagdolled()
+        if humanoid:FindFirstChild("Ragdoll") or humanoid.PlatformStand then
+            return true
+        end
+        return false
+    end
+
+    humanoidRootPart:GetPropertyChangedSignal("CFrame"):Connect(function()
+        if isRagdolled() then return end
+
+        local currentPosition = humanoidRootPart.CFrame
+
+        if (currentPosition.Position - lastPosition.Position).Magnitude > 4 then
+            humanoidRootPart.CFrame = lastPosition
+        else
+            lastPosition = currentPosition
+        end
+    end)
+end
