@@ -1,4 +1,4 @@
-local GodMode = true -- elude Require
+local GodMode = false -- elude Require
 
 if GodMode then
     local player = game.Players.LocalPlayer
